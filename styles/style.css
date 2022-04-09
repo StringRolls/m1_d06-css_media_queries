@@ -1,6 +1,18 @@
+:root{
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+section {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
 }
 
 img {
@@ -67,6 +79,10 @@ h2 {
 
 @media screen and (max-width: 550px) {
 
+    :root {
+        font-size: 12px;
+    }
+    
     h1 {
         font-size: 2em;
     }
